@@ -32,9 +32,17 @@ public class Main {
 //            case 7:
 //                System.out.println("pazar");
 //                break;
-//        Araba araba1 = new Araba("Lamborghini","v12",2025);
+////        Araba araba1 = new Araba("Lamborghini","v12",2025);
+////        araba1.bilgileriYazdir();
+//        Car araba1 = new Car("Tesla","Model S",2024);
 //        araba1.bilgileriYazdir();
-        Car araba1 = new Car("Tesla","Model S",2024);
-        araba1.bilgileriYazdir();
-        }
+        Car araba = new Car();
+        araba.setBrand("Mercedes");
+        araba.setModel("GLA 200");
+        araba.setYear(2023);
+
+        System.out.println("Marka: " + araba.getBrand());
+        System.out.println("Model: " + araba.getModel());
+        System.out.println("Yıl: " + araba.getYear());
     }
+}
