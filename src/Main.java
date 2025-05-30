@@ -36,13 +36,18 @@ public class Main {
 ////        araba1.bilgileriYazdir();
 //        Car araba1 = new Car("Tesla","Model S",2024);
 //        araba1.bilgileriYazdir();
-        Car araba = new Car();
-        araba.setBrand("Mercedes");
-        araba.setModel("GLA 200");
-        araba.setYear(2023);
+//        Car araba = new Car();
+//        araba.setBrand("Mercedes");
+//        araba.setModel("GLA 200");
+//        araba.setYear(2023);
+//
+//        System.out.println("Marka: " + araba.getBrand());
+//        System.out.println("Model: " + araba.getModel());
+//        System.out.println("Yıl: " + araba.getYear());
+        Car2 araba = new Car2();
+        araba.setSpeed(180);
 
-        System.out.println("Marka: " + araba.getBrand());
-        System.out.println("Model: " + araba.getModel());
-        System.out.println("Yıl: " + araba.getYear());
+        System.out.println("Araç markası: " + araba.marka);
+        System.out.println("Hız: " + araba.getSpeed() + "km/s");
     }
 }
