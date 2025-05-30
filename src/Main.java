@@ -44,11 +44,15 @@ public class Main {
 //        System.out.println("Marka: " + araba.getBrand());
 //        System.out.println("Model: " + araba.getModel());
 //        System.out.println("Yıl: " + araba.getYear());
-        Car2 araba = new Car2();
-        araba.setSpeed(180);
+//        Car2 araba = new Car2();
+//        araba.setSpeed(180);
 
 //        System.out.println("Araç markası: " + araba.marka);
 //        System.out.println("Hız: " + araba.getSpeed() + "km/s");
-        araba.move();
+//        araba.move();
+        Animal hayvan1 = new Cat();
+        Animal hayvan2 = new Dog();
+        hayvan1.makeSound();
+        hayvan2.makeSound();
     }
 }
