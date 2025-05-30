@@ -50,9 +50,14 @@ public class Main {
 //        System.out.println("Araç markası: " + araba.marka);
 //        System.out.println("Hız: " + araba.getSpeed() + "km/s");
 //        araba.move();
-        Animal hayvan1 = new Cat();
-        Animal hayvan2 = new Dog();
-        hayvan1.makeSound();
-        hayvan2.makeSound();
+//        Animal hayvan1 = new Cat();
+//        Animal hayvan2 = new Dog();
+//        hayvan1.makeSound();
+//        hayvan2.makeSound();
+Calculator calc = new Calculator();
+int toplam1 = calc.add(10,20);
+int toplam2 = calc.add(5,15,25);
+        System.out.println("İki sayının toplamı: " + toplam1);
+        System.out.println("Üç sayının toplamı: " + toplam2);
     }
 }
