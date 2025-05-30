@@ -63,8 +63,12 @@ public class Main {
 //        System.out.println("Toplam: " + sonuc);
 //        Student ogrenci = new Student("Bahar","Archi's Akademi");
 //        ogrenci.printInfo();
-        Cember cember = new Cember(7.0);
-        System.out.println("Alan: " + cember.alanHesapla());
-        cember.ciz();
+//        Cember cember = new Cember(7.0);
+//        System.out.println("Alan: " + cember.alanHesapla());
+//        cember.ciz();
+        Animal myDog = new Dog();
+        Animal myCat = new Cat();
+        myDog.sound();
+        myCat.sound();
     }
 }
