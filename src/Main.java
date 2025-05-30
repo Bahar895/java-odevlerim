@@ -61,7 +61,10 @@ public class Main {
 //        System.out.println("Üç sayının toplamı: " + toplam2);
 //        int sonuc = HesapMakinesi.topla ( 30,70);
 //        System.out.println("Toplam: " + sonuc);
-        Student ogrenci = new Student("Bahar","Archi's Akademi");
-        ogrenci.printInfo();
+//        Student ogrenci = new Student("Bahar","Archi's Akademi");
+//        ogrenci.printInfo();
+        Cember cember = new Cember(7.0);
+        System.out.println("Alan: " + cember.alanHesapla());
+        cember.ciz();
     }
 }
