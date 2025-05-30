@@ -54,10 +54,12 @@ public class Main {
 //        Animal hayvan2 = new Dog();
 //        hayvan1.makeSound();
 //        hayvan2.makeSound();
-Calculator calc = new Calculator();
-int toplam1 = calc.add(10,20);
-int toplam2 = calc.add(5,15,25);
-        System.out.println("İki sayının toplamı: " + toplam1);
-        System.out.println("Üç sayının toplamı: " + toplam2);
+//Calculator calc = new Calculator();
+//int toplam1 = calc.add(10,20);
+//int toplam2 = calc.add(5,15,25);
+//        System.out.println("İki sayının toplamı: " + toplam1);
+//        System.out.println("Üç sayının toplamı: " + toplam2);
+        int sonuc = HesapMakinesi.topla ( 30,70);
+        System.out.println("Toplam: " + sonuc);
     }
 }
