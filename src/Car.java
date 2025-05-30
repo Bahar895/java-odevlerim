@@ -1,11 +1,11 @@
-public class Araba {
+public class Car {
     //Özellikler(fields)
     String marka;
     String model;
     int yil;
 
     // Constructor (yapıcı metod)
-    public Araba(String marka,String model,int yil) {
+    public Car(String marka, String model, int yil) {
         this .marka = marka;
         this. model = model;
         this . yil = yil;
