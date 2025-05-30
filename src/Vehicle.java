@@ -6,4 +6,7 @@ public class Vehicle {
     public int getSpeed() {
         return speed;
     }
+    public void move() {
+        System.out.println("Araç hareket ediyor...");
+    }
 }

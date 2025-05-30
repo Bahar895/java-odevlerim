@@ -47,7 +47,8 @@ public class Main {
         Car2 araba = new Car2();
         araba.setSpeed(180);
 
-        System.out.println("Araç markası: " + araba.marka);
-        System.out.println("Hız: " + araba.getSpeed() + "km/s");
+//        System.out.println("Araç markası: " + araba.marka);
+//        System.out.println("Hız: " + araba.getSpeed() + "km/s");
+        araba.move();
     }
 }
