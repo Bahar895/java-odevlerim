@@ -59,7 +59,9 @@ public class Main {
 //int toplam2 = calc.add(5,15,25);
 //        System.out.println("İki sayının toplamı: " + toplam1);
 //        System.out.println("Üç sayının toplamı: " + toplam2);
-        int sonuc = HesapMakinesi.topla ( 30,70);
-        System.out.println("Toplam: " + sonuc);
+//        int sonuc = HesapMakinesi.topla ( 30,70);
+//        System.out.println("Toplam: " + sonuc);
+        Student ogrenci = new Student("Bahar","Archi's Akademi");
+        ogrenci.printInfo();
     }
 }
