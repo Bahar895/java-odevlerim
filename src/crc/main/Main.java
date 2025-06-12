@@ -12,13 +12,22 @@ package crc.main;
 //        ArrayList<String> sehirler = SehirListesi.sehirleriGetir();
 //        for (String sehir : sehirler) {
 //            System.out.println("Şehir: " + sehir);
-import crc.collections.MeyveSeti;
-import java.util.HashSet;
-public class Main {
-    public static void main(String[] args) {
-        HashSet<String > meyveler = MeyveSeti.meyveleriGetir();
-        for (String meyve : meyveler) {
-            System.out.println("Meyve: " + meyve);
+//import crc.collections.MeyveSeti;
+//import java.util.HashSet;
+//public class Main {
+//    public static void main(String[] args) {
+//        HashSet<String > meyveler = MeyveSeti.meyveleriGetir();
+//        for (String meyve : meyveler) {
+//            System.out.println("Meyve: " + meyve);
+
+import crc.collections.NotListesi;
+import java.util.HashMap;
+            public class Main {
+                public static void main(String[] args) {
+                    HashMap<String,Integer> notlar = NotListesi.notlarıGetir();
+                    for (String ogrenci : notlar.keySet()) {
+                        int not = notlar.get(ogrenci);
+                        System.out.println(ogrenci + " adlı öğrencinin notu: " + not);
         }
 
     }
