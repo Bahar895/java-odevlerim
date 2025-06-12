@@ -19,16 +19,20 @@ package crc.main;
 //        HashSet<String > meyveler = MeyveSeti.meyveleriGetir();
 //        for (String meyve : meyveler) {
 //            System.out.println("Meyve: " + meyve);
-
-import crc.collections.NotListesi;
-import java.util.HashMap;
-            public class Main {
-                public static void main(String[] args) {
-                    HashMap<String,Integer> notlar = NotListesi.notlarıGetir();
-                    for (String ogrenci : notlar.keySet()) {
-                        int not = notlar.get(ogrenci);
-                        System.out.println(ogrenci + " adlı öğrencinin notu: " + not);
+//
+//import crc.collections.NotListesi;
+//import java.util.HashMap;
+//                    public class Main {
+//                        public static void main(String[] args) {
+//                    HashMap<String,Integer> notlar = NotListesi.notlarıGetir();
+//                    for (String ogrenci : notlar.keySet()) {
+//                        int not = notlar.get(ogrenci);
+//                        System.out.println(ogrenci + " adlı öğrencinin notu: " + not);
+                        import crc.collections.BolmeIslemi;
+                        public class Main {
+                            public static void main(String[] args) {
+                                BolmeIslemi.baslat();
         }
 
     }
-}
+
