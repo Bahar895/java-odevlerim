@@ -28,10 +28,14 @@ package crc.main;
 //                    for (String ogrenci : notlar.keySet()) {
 //                        int not = notlar.get(ogrenci);
 //                        System.out.println(ogrenci + " adlı öğrencinin notu: " + not);
-                        import crc.collections.BolmeIslemi;
-                        public class Main {
-                            public static void main(String[] args) {
-                                BolmeIslemi.baslat();
+//                        import crc.collections.BolmeIslemi;
+//                        public class Main {
+//                            public static void main(String[] args) {
+//                                BolmeIslemi.baslat();
+                                import crc.collections.LambdaOrnegi;
+                                public class Main {
+                                    public static void main(String[] args) {
+                                        LambdaOrnegi.baslat();
         }
 
     }
