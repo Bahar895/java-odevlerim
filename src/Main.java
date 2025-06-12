@@ -66,9 +66,9 @@ public class Main {
 //        Cember cember = new Cember(7.0);
 //        System.out.println("Alan: " + cember.alanHesapla());
 //        cember.ciz();
-        Animal myDog = new Dog();
-        Animal myCat = new Cat();
-        myDog.sound();
-        myCat.sound();
+//        Animal myDog = new Dog();
+//        Animal myCat = new Cat();
+//        myDog.sound();
+//        myCat.sound();
     }
 }
