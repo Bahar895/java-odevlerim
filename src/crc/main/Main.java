@@ -32,10 +32,14 @@ package crc.main;
 //                        public class Main {
 //                            public static void main(String[] args) {
 //                                BolmeIslemi.baslat();
-                                import crc.collections.LambdaOrnegi;
-                                public class Main {
-                                    public static void main(String[] args) {
-                                        LambdaOrnegi.baslat();
+//                                import crc.collections.LambdaOrnegi;
+//                                public class Main {
+//                                    public static void main(String[] args) {
+//                                        LambdaOrnegi.baslat();
+                                        import crc.collections.WrapperOrnegi;
+                                        public class Main {
+                                            public static void main(String[] args) {
+                                                WrapperOrnegi.baslat();
         }
 
     }
